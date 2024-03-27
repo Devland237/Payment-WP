@@ -214,22 +214,6 @@ function viazipay_init_class()
 
                 );
             }
-            /***
-             * Detect enabled options
-             */
-
-
-            function detect_viazipay_enabled_change($option_name, $old_value, $new_value)
-            {
-                if ($option_name === 'woocommerce_viazipay_enabled') {
-                    if ($new_value === 'yes') {
-                        update_option('woocommerce_viazipay_enabled', 'yes');
-                    } else {
-                        // La passerelle de paiement a été désactivée
-                        // Exécuter les actions nécessaires
-                    }
-                }
-            }
             /**
 
              *  handling payment and processing the order
