@@ -1,0 +1,292 @@
+.check-backoff {
+
+    display: none !important;
+
+}
+
+
+
+.viazi_description_method_display {
+
+    margin-bottom: 15px;
+
+}
+
+
+
+.viazipay_description_rp {
+
+    margin-top: 30px;
+
+}
+
+
+
+#woocommerce_wmm_wrap {
+
+    display: flex !important;
+
+    margin-bottom: 30px !important;
+
+    margin-top: 25px;
+
+}
+
+
+
+.wc_payment_method .payment_box input[type="radio"]+label::before {
+
+    content: none;
+
+}
+
+
+
+.viazi_pay {
+
+    display: flex;
+
+    align-items: center;
+
+}
+
+
+
+/* label[for=viazipay-cc]:focus .viazipay_method_woocommerce{
+
+    display: block;
+
+} */
+
+
+
+.viazipay_method_woocommerce {
+
+    display: none;
+
+    margin-top: -15px;
+
+    margin-bottom: 15px;
+
+    padding-left: 60px;
+
+}
+
+
+
+.viazipay_cc-selector .viazipay_inner {
+
+    padding-left: 8px;
+
+    border: 1px solid rgb(176, 175, 175);
+
+    border-radius: 12px;
+
+    margin-bottom: 10px;
+
+    /* display: flex; */
+
+    /* align-items: center; */
+
+}
+
+
+
+.viazipay_cc-selector .viazipay_inner:hover {
+
+    /* opacity: 0.3; */
+
+    /* background:  linear-gradient(#27c4f4, #fff); */
+
+    background: #27c4f4;
+
+}
+
+
+
+.viazipay_inner:hover .viazipay_method_name {
+
+    color: #fff;
+
+}
+
+
+
+.viazipay_method_check {
+
+    /* position: absolute !important; */
+
+    display: block !important;
+
+    margin-top: 0px !important;
+
+}
+
+
+
+.viazipay_method_check:focus {
+
+    outline-offset: 0px !important;
+
+    outline: 0px !important;
+
+}
+
+
+
+#payment ul.wc_payment_methods li.wc_payment_method>label:before {
+
+    content: none;
+
+}
+
+
+
+label[for=payment_method_viazipay]::before {
+
+    content: none;
+
+}
+
+#payment ul.payment_methods li, .woocommerce-cart #payment ul.payment_methods li, .woocommerce-checkout #payment ul.payment_methods li {
+    position: relative;
+    line-height: 2;
+    text-align: left;
+    margin: 0;
+    font-weight: 400;
+}
+
+
+
+label[for=payment_method_viazipay] {
+
+    display: inline-block !important;
+
+    justify-content: space-between !important;
+
+    background: none !important;
+
+    align-items: center !important;
+
+}
+
+.payment_method_viazipay label {
+
+    font-size: 16px !important;
+
+    font-family: 'Poppins' !important;
+
+    font-weight: 600;
+
+}
+
+label[for=payment_method_viazipay] img {
+    max-height: 35px !important;
+    height: 90px !important;
+    position: absolute !important;
+    right: 0;
+    top: -6px;
+
+}
+
+#payment ul.wc_payment_methods li.wc_payment_method input[type=radio]:first-child:checked+label {
+
+    background: none !important;
+
+}
+
+
+
+.viazipay-cc {
+
+    padding-top: 8px;
+
+    padding-bottom: 8px;
+
+    justify-content: space-evenly;
+
+    align-items: center;
+
+    display: flex !important;
+
+    gap: 30px;
+
+}
+
+
+
+.viazipay-cc:focus {
+
+    background: none !important;
+
+}
+
+
+
+.viazipay-cc img {
+
+    width: 120px !important;
+
+}
+
+
+.viazipay_continue {
+
+    background: #27c4f4 !important;
+
+    color: #fff !important;
+
+    padding: 15px;
+
+    text-decoration: none;
+
+    border-radius: 10px;
+
+    font-size: 20px;
+
+    font-family: 'Poppins';
+
+    font-weight: 600;
+
+}
+
+
+.viazipay_continue:hover,
+.viazipay_cancel:hover {
+
+    text-decoration: none !important;
+
+    color: #fff !important;
+
+}
+
+
+.woocommerce_wmm_wrap .woom_continue:hover {
+
+    background: rgb(0, 63, 155);
+
+}
+
+
+
+.viazipay_cancel {
+
+    background: red !important;
+
+    color: #fff !important;
+
+    padding: 15px;
+
+    text-decoration: none;
+
+    border-radius: 10px;
+
+    font-size: 20px;
+
+    font-family: 'Poppins';
+
+    font-weight: 600;
+
+    margin-left: 40px;
+
+}

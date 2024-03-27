@@ -1,0 +1,73 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: viazipay\n"
+"POT-Creation-Date: 2023-12-13 00:39+0100\n"
+"PO-Revision-Date: 2023-12-13 00:50+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_n;esc_html_e;esc_html__\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/class-viazipay.php:16
+msgid ""
+"Woocommerce viazipay - étend woocommerce pour permettre les paiements "
+"mobiles (MTN Mobile Money, Orange Money, CoinBase)"
+msgstr ""
+"Woocommerce viazipay - extends woocommerce to enable mobile payments (MTN "
+"Mobile Money, Orange Money, CoinBase)"
+
+#: includes/class-viazipay.php:38
+msgid "Activer/désactiver"
+msgstr "Enable/disable"
+
+#: includes/class-viazipay.php:39
+msgid "Activer la passerelle viazipay"
+msgstr "Activate viazipay gateway"
+
+#: includes/class-viazipay.php:45
+msgid "titre"
+msgstr "title"
+
+#: includes/class-viazipay.php:52
+msgid "Methodes de Paiement"
+msgstr "Payment Methods"
+
+#: includes/class-viazipay.php:54
+msgid ""
+"Sélectionnez les moyens de paiement disponibles pour votre compte viazipay"
+msgstr "Select the payment methods available for your viazipay account"
+
+#: includes/class-viazipay.php:161 includes/class-viazipay.php:216
+#: includes/class-viazipay.php:263
+msgid "Veuillez réessayer."
+msgstr "Please try again."
+
+#: includes/class-viazipay.php:300
+msgid "Continuer"
+msgstr "Continue"
+
+#: includes/class-viazipay.php:301
+msgid "Annuler"
+msgstr "Cancel"
+
+#: includes/class-viazipay.php:309
+msgid "<strong>Méthode mobile</strong> est requis"
+msgstr "<strong>mobile method </strong> is required"
+
+#: viazipay.php:37
+msgid "Le plugin ViaziPay nécessite php 5.4 ou plus"
+msgstr "ViaziPay plugin requires php 5.4 or higher"
+
+#: viazipay.php:76
+msgid "order completed"
+msgstr "commande terminée"
+
+#: viazipay.php:76
+msgid "see your orders"
+msgstr "voir vos commandes"
